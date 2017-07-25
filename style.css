@@ -1,0 +1,79 @@
+
+
+h3 {
+  font-size: 24px;
+}
+.heading {
+  font-family: legitima, sans-serif;
+  color: #1100d6;
+  letter-spacing: 1.5px;
+}
+
+.main {
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.paragraph {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  clear: left;
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.heading-2 {
+  margin-bottom: 20px;
+  font-family: legitima, sans-serif;
+  color: #1100d6;
+  letter-spacing: 1.4px;
+}
+
+.contact-links {
+  margin-top: 5px;
+  margin-right: 18px;
+  margin-bottom: 27px;
+  float: left;
+  border-bottom: 1px none #1100d6;
+  font-family: Inconsolata, monospace;
+  color: #333;
+  font-size: 18px;
+}
+
+.text-link {
+  border-bottom: 1px solid #1100d6;
+  color: #333;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #1100d6;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    width: 90%;
+  }
+  .container {
+    padding-top: 20px;
+  }
+}
+
