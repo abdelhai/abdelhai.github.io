@@ -248,6 +248,10 @@ textarea.w-select {
   font-family: Overpass, sans-serif;
 }
 
+#results {
+  padding-top: 120px;
+}
+
 .result {
   display: block;
   width: 600px;
@@ -295,25 +299,16 @@ textarea.w-select {
   list-style-type: none;
 }
 
-.ais-pagination--item {
-  float: left;
-  background-color: rgba(31, 95, 116, .17);
-  margin-left: 2px;
-  margin-right: 2px;
-  color: white;
-  padding: 10px;
-}
 .ais-pagination--item a {
   text-decoration: none;
   color: white;
+  float: left;
+  background-color: rgba(31, 95, 116, .17);
+  margin: 2px;
+  color: white;
+  padding: 10px;
 }
 
-
-.spacer {
-  width: 100%;
-  height: 40px;
-  min-height: 40px;
-}
 
 .mobile-header {
   display: none;
@@ -322,6 +317,7 @@ textarea.w-select {
 .hl {
   background-color: rgba(245, 255, 195, .15);
 }
+
 @media (max-width: 991px) {
   .results {
     display: block;

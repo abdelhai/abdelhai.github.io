@@ -3,7 +3,7 @@
 	var search = instantsearch({
 	  appId: '4UJ3KO038F',
 	  apiKey: '3caa2ac017744a9af13b635443e7b7a0',
-	  indexName: 'test_thingy',
+	  indexName: 'test_se_com',
 	  urlSync: true
 	});
 
@@ -16,9 +16,9 @@
 
 	var hitTemplate = `
       <div class="result">
-        <h2 class="result-title"><a href="https://ai.stackexchange.com/questions/{{@Id}}" target="_blank" class="link">{{{_highlightResult.@Title.value}}}</a></h2>
-        <div class="result-url">https://ai.stackexchange.com/questions/{{@Id}}</div>
-        <p class="paragraph">{{@Body}}</p>
+        <h2 class="result-title"><a href="https://ai.stackexchange.com/questions/{{Id}}" target="_blank" class="link">{{{_highlightResult.ShortTitle.value}}}</a></h2>
+        <div class="result-url">https://ai.stackexchange.com/questions/{{Id}}</div>
+        <p class="paragraph">{{Excerpt}}</p>
       </div>
 	`
 
